@@ -10,11 +10,13 @@ default = "099720109477"
 variable "aws_access_key" {
   description = "AWS Access Key"
   type        = string
+  default = "AKIAYRH5NCHTUIWVVNHN"
 }
 
 variable "aws_secret_key" {
   description = "AWS Secret Key"
   type        = string
+  default = "jRAweVmOB8iC8MFKMXRm6Xs295hxcDIPFlyH12HC"
 }
 
 
