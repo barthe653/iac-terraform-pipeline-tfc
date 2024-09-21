@@ -2,9 +2,9 @@ variable "aws_region" {
   default = "us-east-2"
 }
 
-variable "aws-owners" {
+variable "aws-owners" {}
 default = "099720109477"
-}
+
 
 ###variable "azure_subscription_id" {}
 ##variable "azure_client_id" {}
