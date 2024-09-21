@@ -25,9 +25,9 @@ terraform {
 
   ##backend "remote" {
   ##hostname     = "app.terraform.io"
-  ##organization = "devsahamerlin"
+  ##organization = "esis-tfc"
   ##workspaces {
-  ##name = "iac-terraform-pipeline"
+  ##name = "iac-terraform-pipeline-tfc"
   ##}
   ##}
 }
