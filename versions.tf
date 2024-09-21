@@ -23,11 +23,11 @@ terraform {
   #    prefix = "env/test"
   #  }
 
-  ##backend "remote" {
-  ##hostname     = "app.terraform.io"
-  ##organization = "devsahamerlin"
-  ##workspaces {
-  ##name = "iac-terraform-pipeline"
-  ##}
-  ##}
+  backend "remote" {
+  hostname     = "app.terraform.io"
+  organization = "devsahamerlin"
+  workspaces {
+  name = "iac-terraform-pipeline"
+  }
+  }
 }
