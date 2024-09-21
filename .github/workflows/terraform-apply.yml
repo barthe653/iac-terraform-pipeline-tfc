@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "esis-tfc"
+  TF_CLOUD_ORGANIZATION: "esis_tfc"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "iac-terraform-pipeline-tfc"
   CONFIG_DIRECTORY: "./"
