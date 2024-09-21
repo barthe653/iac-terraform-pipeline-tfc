@@ -8,7 +8,7 @@ terraform {
       version = "5.38.0"
     }
 
-    ##azurerm = {
+    #azurerm = {
     ##source  = "hashicorp/azurerm"
     ##version = "3.94.0"
     ##}
