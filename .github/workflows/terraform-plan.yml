@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  TF_CLOUD_ORGANIZATION: "tfc-esis"
+  TF_CLOUD_ORGANIZATION: "tfc_esis"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "iac-terraform-pipeline-tfc"
   CONFIG_DIRECTORY: "./"
