@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "aws-owners" {}
-##default = "099720109477"
+default = "099720109477"
 
 
 ##variable "azure_subscription_id" {}
