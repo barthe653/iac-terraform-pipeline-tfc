@@ -25,7 +25,7 @@ terraform {
 
   backend "remote" {
   hostname     = "app.terraform.io"
-  organization = "esis-tfc"
+  organization = "esis_tfc"
   workspaces {
   name = "iac-terraform-pipeline-tfc"
   }
