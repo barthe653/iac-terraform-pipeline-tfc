@@ -1,0 +1,33 @@
+terraform {
+  required_version = ">= 1.2.0"
+
+  required_providers {
+
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.38.0"
+    }
+
+    ##azurerm = {
+    ##source  = "hashicorp/azurerm"
+    ##version = "3.94.0"
+    ##}
+  }
+
+  #backend "local" {
+  #path = "terraform/state/local.tfsate"
+  # }
+
+  #  backend "gcs" {
+  #    bucket = "tf-bs-bucket"
+  #    prefix = "env/test"
+  #  }
+
+  backend "remote" {
+  hostname     = "app.terraform.io"
+  organization = "esis-tfc"
+  workspaces {
+  name = "iac-terraform-pipeline-tfc"
+  }
+  }
+}
