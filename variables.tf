@@ -7,6 +7,17 @@ type = string
 default = "099720109477"
 }
 
+variable "aws_access_key" {
+  description = "AWS Access Key"
+  type        = string
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Key"
+  type        = string
+}
+
+
 ###variable "azure_subscription_id" {}
 ##variable "azure_client_id" {}
 ##variable "azure_client_secret" {}
