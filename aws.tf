@@ -51,9 +51,9 @@ resource "aws_instance" "server-web" {
                   #!/bin/bash
                   apt-get update
                   apt-get install -y apache2
-                  sed -i -e 's/86/8688/ /etc/apache2/ports.conf
+                  sed -i -e 's/86/8688/' /etc/apache2/ports.conf
                   currentDateTime=$(date)
-                  echo "Hello AWS Terraform github Actions CI/CD Pipeline Demo $currentDateTime" > /var/www/html/index.html "
+                  echo "Hello AWS Terraform github Actions CI/CD Pipeline Demo $currentDateTime" > /var/www/html/index.html
                   systemctl restart apache2
                   EOF
   tags = {
